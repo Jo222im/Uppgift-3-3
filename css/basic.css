@@ -1,1 +1,250 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+body 
+{
+	
+	color: #797066;
+	background-color: #fcfaf4;
+	font-family: "Verdana", "Times New Roman", sans-serif;
+	margin-top: 10px;
+}
+
+/*----------------*/
+
+#container 
+{
+	margin: 0px auto;
+	border: 1px solid #cecab9;	
+	width: 600px;
+	overflow: hidden; 
+    }
+
+/*----------------*/
+
+#topbar 
+{
+	height: 230px;
+	width: 600px;
+	background: #51473d url("Picscss/coffey.jpg") no-repeat 0 24px;
+	text-align: right;
+	line-height: 200%;
+	float: left;
+	font-size: 10px;
+	color: #eae7d2;
+	font-style: italic;
+	
+    }
+
+/*----------------*/
+
+#menu a 
+{
+	display: none; 
+	}
+
+#menu 
+{
+    width: 600px;
+	height: 35px;
+	float: left;
+	background-color: #51473d;	
+	border-bottom: 1px solid white;
+	text-transform: capitalize;
+	}
+
+#menu ul 
+{
+    height: 36px;
+	margin: 5px 100px 0 10px;
+	float: left;
+	}
+
+#menu ul li 
+{
+	float: left;
+	height: 28.5px;
+	background-color: #797066;
+	border-top: 1px solid #847c73;
+	margin-right: 1px;
+	
+	}
+
+#menu ul li a 
+{
+    text-decoration: none;
+	display: inline;
+	float: left;
+	color: #eae7d2;
+	padding-left: 20px;
+	padding-right: 20px; 
+	line-height: 29px;
+	font-size: 12px;
+	}
+
+#menu ul li:hover 
+{
+	background-color: #9c9084;
+	}
+
+#menu ul li.active 
+{
+	height: 30px; 
+	background-color: #eae7d2;
+	border-bottom: 1px solid #eae7d2;
+	border-top: 1px solid #51473d;
+	}
+
+#menu .active a 
+{
+	color: #797066;
+	}
+
+/*----------------*/
+
+#content 
+{
+	width: 600px;
+	background-color: #eae7d2;
+	float: left;
+	}
+
+
+
+#maincontent 
+{
+	margin: 20px 0 10px 10px;
+	border-right: 1px dashed Silver;
+	width: 320px;
+	float: left;
+	}
+
+#maincontent img 
+{
+	float: left;
+	padding-right: 5px;
+	}
+
+#maincontent p 
+{	
+	padding-right: 5px;
+	line-height: 1.5;	
+	font-size: 14px;
+	}
+	
+#maincontent h1
+{
+	float: left;
+	padding-bottom: 20px;
+	font-size: 30px;
+	width: 350px;
+	font-family:"Times New Roman", Times, serif;
+	}
+
+/*----------------*/
+
+#subcontent 
+{
+	float: left;
+	width: 250px;
+	margin: 20px 0 10px 10px;
+	}
+
+#subcontent p 
+{
+	line-height: 2;
+	font-size: 10px; 
+	padding-right: 10px;
+	}
+	
+#subcontent h1 
+{
+
+	float: left;
+	width: 250px;
+	color: #51473d;
+	font: 20px "Times New Roman";
+	padding: 5px 0 25px 0;
+	}
+	
+#subcontent h2 
+{
+	width: 250px;
+	padding-top: 120px;
+    color: #51473d;
+	font: 16px "Times New Roman";
+    float: left;
+	}
+
+
+#subcontent ul li 
+{ 
+	line-height: 1.2; 
+	}
+
+#subcontent ul li a 
+{
+	font-size: 13px;
+	color: #51473d;
+	}
+
+/*----------------*/
+
+#bottomcontent
+{
+    font-size: 10px;
+	font-style: italic;
+	width: 590px;
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+    float: left;
+	}
